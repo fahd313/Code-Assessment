@@ -1,0 +1,20 @@
+.user-container{
+  border: 1px solid;
+  margin: 10px;
+}
+
+h1{
+  margin-left: 5px;
+}
+
+h2{
+  margin-left: 10px;
+}
+
+.underline{
+  text-decoration: underline;
+}
+
+.underline:hover{
+  cursor: pointer;
+}

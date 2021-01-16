@@ -1,0 +1,6 @@
+<ul *ngFor="let f of getLastThree()">
+  <li>{{f.owner.login}}</li>
+</ul>
+<ul>
+  <li *ngIf="!getLastThree()">{{message}}</li>
+</ul>
